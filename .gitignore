@@ -1,0 +1,32 @@
+# IntelliJ / Cursive
+.idea/
+*.iml
+*.iws
+
+# MacOS
+.DS_Store
+
+# Clojure tooling
+.nrepl-port
+.cpcache/
+.clj-kondo/
+
+# Clojure CLI
+/classes/
+/target/
+
+# Leiningen (caso use)
+.lein-deps-sum
+.lein-repl-history
+/.lein-failures
+
+# nREPL / CIDER
+.cider-repl-history
+.repl-port
+
+# VS Code
+.vscode/
+
+# Logs e temporários
+*.log
+*~
